@@ -1,1 +1,22 @@
+# Jangan upload file .env (berisi Server Key Midtrans, API key, dll)
 .env
+
+# Folder vendor (jika pakai Composer)
+vendor/
+
+# File cache atau log
+*.log
+*.lock
+
+# File konfigurasi editor / IDE
+.idea/
+.vscode/
+
+# Direktori sistem
+.DS_Store
+Thumbs.db
+
+# File backup sementara
+*.bak
+*.tmp
+
